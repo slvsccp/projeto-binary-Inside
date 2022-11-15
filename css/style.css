@@ -15,6 +15,7 @@ h4 {
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 ul {
@@ -136,4 +137,57 @@ a {
 #sobre .container h4 {
   color: #747474;
   font-size: 17px;
+}
+
+#contato {
+  display: flex;
+  justify-content: center;
+  margin-top: 17px;
+}
+
+#contato .container-form {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 7px 0 rgb(0 0 0 / 52%);
+  width: 700px;
+}
+
+#contato .container-form p {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+#contato .container-form p :is(input, textarea) {
+  border-radius: 0;
+  border-color: #ccc;
+  border-width: 0 0 2px 0;
+  border-style: none none solid none;
+  box-shadow: none;
+  margin-top: 7px;
+}
+
+#contato .container-form .btn-enviar-form {
+  text-align: center;
+}
+
+#contato .container-form .btn-enviar-form button {
+  background: 0 0 #ffffff;
+  border: 1px solid #2f323a;
+  border-radius: 3px;
+  color: #2f323a;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  line-height: inherit;
+  margin: 30px 0;
+  padding: 10px 50px;
+  text-transform: uppercase;
+}
+
+footer {
+  padding: 30px;
+  text-align: center;
+  font-size: 13px;
+  font-style: italic;
 }

@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
-  <title>Document</title>
+  <title>Binary Systems</title>
 </head>
 <body>
 
@@ -51,15 +51,36 @@
   </section>
 
   <!--contato-->
-  <section class="section-generica" id="contato">
-    <div class="container">
-      <h1>Tecnologia de alto nível, conectada ao seu negócio!</h1>
-      <h4>Uma empresa que presta serviços segmentados, de acordo com a cultura e com os interesses de seus clientes.</h4>
-      <button type="button">
-        <a href="https://api.whatsapp.com/" target="_blank">Solicite Agora</a>
-      </button>
+  <h2 class="titulo">Contato</h2>
+  <h4 class="subtitulo">Solicite um orçamento sem compromisso!</h4>
+  <section class="" id="contato">
+    <div class="container-form">
+      <form id="contact-form" class="form" action="" method="POST">
+        <p>
+          <label for="nome">Seu nome:</label>
+          <input type="text" id="nome" name="nome" placeholder="Digite nome" tabindex="1" required>
+        </p>
+
+        <p>
+          <label for="email">Seu E-mail:</label>
+          <input type="email" id="email" name="email" placeholder="Digite E-mail" tabindex="2" required>
+        </p>
+
+        <p>
+          <label for="messagem">Escreva sua mensagem:</label>
+          <textarea rows="5" cols="50" name="messagem" id="messagem" placeholder="Mensagem..." tabindex="4" required></textarea>                                 
+        </p>
+        <div class="btn-enviar-form">
+          <button type="submit">Enviar mensagem</button>
+        </div>
+      </form>
     </div>
   </section>
+
+  <!---Footer--->
+  <footer>
+    &copy; 2022 Binary. Todos os direitos reservados.
+  </footer>
 
 
 
